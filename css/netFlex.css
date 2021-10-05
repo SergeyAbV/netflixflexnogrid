@@ -1,0 +1,341 @@
+body{
+    padding: 0;
+    margin:0;
+    color: white;
+    background: black;
+    font-family:'Mulish', sans-serif;
+
+}
+button{
+    margin-bottom: 2px;
+    text-align: start;
+    background: #414141;
+    color: white;
+    border: none;
+    width: 816px;
+    height: 78px;
+    font-size: 26px;
+    padding: 30px;
+    opacity: 0.8;
+    cursor:pointer;
+    transition: all 0.5s ease;
+}
+h2, h1, h3, p{
+    margin: 0;
+}
+.logo{
+    display: flex;
+}
+.logo>img{
+    width: 169px;
+    margin-left: 46px;
+    margin-top: 29px;
+    height: 46px;
+    margin-right: 1335px;
+}
+.form1{
+    width: 104px;
+    margin-top: 29px;
+    height: 35px;
+    color: white;
+    border-radius: 4px;
+    background: rgba(0,0,0,.4);
+}
+.knopka1{
+    margin-top: 29px;
+    width: 83px;
+    height: 35px;
+    margin-left: 35px;
+    color: white;
+    background: red;
+    border-radius: 4px;
+}
+.title{
+    display: flex;
+    width: 640px;
+    font-size: 41px;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+    margin-top: 184px;
+    margin-bottom: 168px;
+}
+.title>h1{
+    font-size: 63px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.title>h2{
+    font-size: 23px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.title>h3{
+    font-size: 16px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.addres1{
+    width: 489px;
+    height: 60px;
+    padding: 0;
+    border: 0;
+}
+.knopka{
+    height: 60px;
+    border: 0px;
+    color: white;
+    background: red;
+    font-size: 15px;
+    padding: 0;
+}
+.backround>img{
+    width: 100%;
+    margin: 0;
+    padding: 0px;
+    height: 860px;
+    filter: brightness(0.5);
+    z-index: -1;
+    position: absolute;
+}
+.polosa{
+    width: 100%;
+    height: 8px;
+    background: #414141;
+}
+.tv>h1 {
+    margin-top: 126px;
+    margin-bottom: 10px;
+    width: 371px;
+    margin-right: 18px;
+    font-size: 63px;
+    display: inline-block;
+}
+.tv>h2{
+    margin-right: 10px;
+    width: 504px;
+    font-size: 27px;
+    display: inline-block;
+    margin-bottom: 122px;
+}
+.tele{
+    width: 473px;
+    height: 230px;
+}
+.polosa2{
+    width: 100%;
+    height: 8px;
+    background: #414141;
+}
+.mobile{
+
+}
+.mobile>img{
+
+}
+.mobile>h1{
+    width: 672px;
+    font-size: 63px;
+    display: inline-block;
+}
+.mobile>h2{
+    display: inline-block;
+}
+.backroundtv{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.backroundmobile{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 470px;
+}
+.backroundmobile>img{
+    width: 343px;
+    margin-right: 184px;
+    height: 331px;
+}
+.text{
+    width: 470px;
+}
+.text>h1{
+    width: 470px;
+    font-size: 50px;
+}
+.text>h2{
+    font-size: 26px;
+}
+.polosa3{
+    width: 100%;
+    height: 8px;
+    background: #414141;
+}
+.textmono{
+    width: 470px;
+}
+.backroundmono{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 470px;
+}
+.backroundmono>img{
+    width: 398px;
+    height: 362px;
+}
+.textmono>h2{
+    font-size: 26px;
+    width: 470px;
+}
+.textmono>h1{
+    width: 595px;
+    font-size: 50px;
+}
+.textmono{
+    width: 595px;
+}
+.polosa4{
+    width: 100%;
+    height: 8px;
+    background: #414141;
+}
+.kids>img{
+    width: 467px;
+    height: 265px;
+}
+.kids{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 470px;
+}
+.kidstext>h1{
+    width: 525px;
+    font-size: 50px;
+}
+.kidstext>h2{
+    width: 500px;
+    font-size: 26px;
+}
+.polosa5{
+    width: 100%;
+    height: 8px;
+    background: #414141;
+}
+.otvet{
+    display: flex;
+    padding: 0px;
+    width: 815px;
+    flex-direction: column;
+    align-content: space-between;
+    margin: 0px;
+    font-size: 26px;
+}
+.vopros{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.button__card_section{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-content: space-around;
+
+}
+.button__name>h1{
+    text-align: center;
+    margin-bottom: 10px;
+    font-size: 50px;
+    padding: 30px;
+}
+.button__text{
+    width: 816px;
+    font-size: 11px;
+    text-align: center;
+    display: flex;
+    margin-top: 60px;
+    margin-bottom: 18px;
+}
+.btn__text{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 100px;
+}
+.addres2{
+    width: 501px;
+    height: 71px;
+    padding: 0;
+    border: 0;
+    font-size: 21px;
+}
+.knopka2{
+    height: 72px;
+    border: 0px;
+    color: white;
+    background: red;
+    font-size: 15px;
+    width: 333px;
+    padding: 0;
+    font-size: 21px;
+}
+.polosa6{
+    width: 100%;
+    height: 8px;
+    background: #414141;
+    margin-bottom: 100px;
+}
+.namber__text{
+    display: flex;
+    justify-content: start;
+    font-size: 16px;
+    color: #414141;
+}
+.namber{
+    width: 816px;
+    margin-left: 484px;
+    margin-bottom: 15px;
+}
+.info{
+    margin-left: 484px;
+    display: flex;
+    width: 883px;
+    height: 130px;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: space-between;
+}
+.info__tap{
+    margin-bottom: 12px;
+    font-size: 13px;
+    color: #414141;
+    text-decoration: none;
+}
+a{
+    color: #414141;
+}
+.ln2__form{
+    margin-left: 484px;
+    width: 142px;
+    margin-top: 29px;
+    height: 52px;
+    color: #414141;
+    border-radius: 4px;
+    background: rgba(0,0,0,.4);
+    font-size: 21px;
+    padding: 3px;
+    border-color: #414141;
+    margin-bottom: 26px;
+}
+.netflix{
+    margin-left: 484px;
+    color: #414141;
+    font-size: 15px;
+    margin-bottom: 30px;
+}
